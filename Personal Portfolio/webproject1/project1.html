@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My designs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="project1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="project1">
+        <h1>DIGI Notes</h1>
+        <p class="project-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio omnis eum vero quasi id ullam quo dolor aliquam in saepe.</p>
+        <div class="project1container" id="project1container">
+            <div class="project1content">
+                <div class="project1slide active">
+                <p>Home Page</p>
+                <img src="project1home.png" alt="Home Page">
+            </div>
+            <div class="project1slide">
+                <p>Notes page/search</p>
+                <img src="project1notes1.png" alt="Notes page/search">
+            </div>
+            <div class="project1slide">
+                <p>Notes page/results</p>
+                <img src="project1notes2.png" alt="Notes page/results">
+            </div>
+            <div class="project1slide">
+                <p>Videos page/search</p>
+                <img src="project1videos1.png" alt="ideos page/search">
+            </div>
+            <div class="project1slide">
+                <p>Videos page/results</p>
+                <img src="project1videos2.png" alt="Videos page/results">
+            </div>
+            <div class="project1slide">
+                <p>videos results/hover</p>
+                <img src="project1videoshover.png" alt="videos results/hover">
+            </div>
+        </div>
+            <i class="fas fa-caret-left prev"></i>
+            <i class="fas fa-caret-right next"></i>
+        </div>
+        <p class="backtodesign">back to <a id="viewlogo" href="/Base project copy/index.html#mydesigns">my designs</a></p>
+    </div>
+    
+<script>
+    $('.next').on('click', function(){
+    let currentImg = $('.active');
+    let nextImg = currentImg.next();
+    
+    if(nextImg.length === 0) {
+      currentImg.removeClass('active');
+      $('.project1slide').first().addClass('active');
+       } else {
+         currentImg.removeClass('active');
+         nextImg.addClass('active');
+       }
+  });
+
+    $(".prev").on("click", function (){
+        var currentImg = $(".active");
+        var prevImg = currentImg.prev();
+
+        if(prevImg.length === 0) {
+            currentImg.removeClass("active");
+            $(".project1slide").last().addClass("active");
+        } else {
+            currentImg.removeClass("active");
+            prevImg.addClass("active");
+        }
+    });
+</script>
+</body>
+</html>
+
