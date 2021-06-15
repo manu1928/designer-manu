@@ -332,6 +332,11 @@ hr {
 	line-height: 28px;
 }
 
+.projecttxt > p span {
+	text-decoration: line-through;
+	color: red;
+}
+
 .projecttxt > h2 {
 	color:#002F08;
 	font-size: 40px;
@@ -399,7 +404,7 @@ hr {
 
 .logocontainer > .next, .prev {
 	position: absolute;
-	bottom: -273%;
+	bottom: -250%;
 	font-size: 120px;
 	cursor: pointer;
 	z-index: 100;
@@ -585,6 +590,8 @@ hr {
 	.content {
 		height: 100vh;
 		margin-top: 100px;
+		width: 100%;
+		right: 18px;
 	}
 
 	.content > img {
@@ -593,7 +600,7 @@ hr {
 
 	.content-text {
 		text-align: center;
-		
+		margin: auto;
 	}
 
 	.content-text > .sm1 {
@@ -699,7 +706,7 @@ hr {
 	}
 
 	.logocontainer > .next, .prev {
-		bottom: -148%;
+		bottom: -151%;
 		font-size: 50px;
 	}
 
