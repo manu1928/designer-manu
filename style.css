@@ -647,7 +647,7 @@ hr {
 	}
 
 	.mydesigns {
-		margin-top: 700px;
+		margin-top: 930px;
 		text-align: center;
 	}
 	.mydesigns h1 {
@@ -656,7 +656,12 @@ hr {
 	}
 	
 	.weblogo {
-		margin: 20px 50px 0 50px;
+		margin: 20px 0 0 85px;
+	}
+
+	hr {
+		margin-left: 105px;
+		width: 60%;
 	}
 
 	.webcontainer {
@@ -670,7 +675,7 @@ hr {
 		margin: 0;
 	}
 
-	.projecttxt, .projectimg {
+	.projectcontainer > .projectimg {
 		flex-basis: 100%;
 	}
 
@@ -706,7 +711,7 @@ hr {
 	}
 
 	.logocontainer > .next, .prev {
-		bottom: -151%;
+		bottom: -246%;
 		font-size: 50px;
 	}
 
@@ -731,3 +736,202 @@ hr {
 		width: 30px;
 	}
 }
+
+@media only screen and (max-width: 412px) {
+	.content > .content-text {
+		position: absolute;
+		top: 50px;
+		left: 90px;
+	}
+
+	.content-text > h2 {
+		padding-bottom: 25px;
+	}
+
+	.about-txt {
+		margin-left: 30px;
+	}
+
+	.main {
+		margin: 35px;
+		width: 85%;
+	}
+
+	.resumecon {
+		margin-left: -8px;
+	}
+
+	.resumecon > .resume span {
+		font-size: 14px;
+	}
+
+	.resumecon > .resume > .aresume {
+		font-size: 14px;
+	}
+
+	.mydesigns {
+		margin-top: 750px;
+	}
+
+	.mydesigns > h1 {
+		margin-left: 10px;
+	}
+
+	.weblogo {
+		margin-left: 60px;
+	}
+
+	.weblogo > p {
+		font-size: 18px;
+	}
+
+	hr {
+		margin-left: 70px;
+		width: 68%;
+	}
+
+	.webcontainer {
+		margin-left: -10px;
+	}
+
+	.projecttxt > p {
+		width: 300px;
+	}
+
+	.projectcontainer > .projectimg {
+		margin-left: -5px;
+	}
+
+	.projectimg > img {
+		width: 330px;
+	}
+
+	.webcontainer > .viewlogo {
+		position: static;
+	}
+
+	.viewlogo {
+		margin-left: 65px;
+		margin-top: 10px;
+		font-size: 16px;
+	}
+
+	.logocontainer > .next, .prev {
+		bottom: -184%;
+	}
+
+	.logocontainer > .next {
+		right: 25px;
+	}
+
+	.logocontainer > .prev {
+		left: 25px;
+	}
+
+	.phone > p a {
+		margin-left: 20px;
+	}
+
+	.mail > p a {
+		margin-left: 20px;
+		font-size: 19px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+		.content-text {
+			margin-left: -38px;
+		}
+
+		.about-txt {
+			margin-left: -10px;
+		}
+		.main {
+			margin-left: 20px;
+		}
+
+		.main > .sub2 {
+			height: 350px;
+		}
+
+		.mydesigns {
+			margin-top: 850px;
+		}
+
+		.mydesigns > h1 {
+			margin-left: -10px;
+		}
+
+		.weblogo {
+			margin-left: 25px;
+		}
+
+		hr {
+			margin-left: 52px;
+		}
+
+		.projectcontainer > .projectimg {
+			margin-left: -5px;
+		}
+
+		.projecttxt > h2 {
+			font-size: 34px;
+		}
+
+		.webcontainer {
+			margin-left: -15px;
+		}
+	
+		.projecttxt > p {
+			width: 280px;
+			font-size: 14px;
+		}
+
+		.projectimg img {
+			width: 300px;
+		}
+
+		.logocontainer {
+			margin-left: -15px;
+		}
+	
+		.logocontainer > .next, .prev {
+			bottom: -228%;
+		}
+	
+		.logocontainer > .next {
+			right: 30px;
+		}
+	
+		.logocontainer > .prev {
+			left: 15px;
+		}
+	
+		.phone > p a {
+			margin-left: 15px;
+			font-size: 18px;
+		}
+
+		.phone > img {
+			width: 25px;
+		}
+
+		.mail > p a {
+			margin-left: 15px;
+			font-size: 17px;
+		}
+
+		.mail > .far {
+			font-size: 25px;
+		}
+
+		.social-icons > a {
+			font-size: 32px;
+		}
+
+		.footer > .copyright {
+			font-size: 12px;
+			margin-left: -10px;
+			letter-spacing: 1px;
+		}
+	}

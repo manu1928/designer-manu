@@ -143,7 +143,7 @@ body {
 	}
 
 	.project1container > .next, .prev {
-		top: 510px;
+		top: 520px;
 		font-size: 60px;
 	}
 
@@ -156,8 +156,62 @@ body {
 	}
 
 	.project1 > .backtodesign {
-		bottom: 125px;
+		bottom: 10px;
 		right: 80px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	.project1container > .next, .prev {
+		top: 472px;
+		font-size: 60px;
+	}
+
+	.project1container {
+		margin: 0;
+	}
+
+	.project1 > .backtodesign {
+		bottom: 85px;
+		right: 80px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.project1 > h1 {
+		margin-left: 30px;
+	}
+
+	.project1 > .project-content {
+		margin-left: 30px;
+	}
+
+	.project1container > .next, .prev {
+		top: 475px;
+		font-size: 60px;
+	}
+
+	.project1container > .next {
+		right: 10px;
+	}
+
+	.project1container > .prev {
+		left: 10px;
+	}
+
+	.project1container {
+		margin: 0;
+	}
+
+	.project1container > .project1content {
+		width: 100%;
+	}
+
+	.project1 > .backtodesign {
+		bottom: -50px;
+		right: 50px;
 		text-align: center;
 	}
 }

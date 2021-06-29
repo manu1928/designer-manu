@@ -114,7 +114,7 @@ body {
 @media only screen and (max-width: 480px) {
 
 	.project1 {
-		margin-top: 70px;
+		margin-top: 80px;
 	}
 
 	.project1 > h1 {
@@ -128,7 +128,6 @@ body {
 	}
 
 	.project1container {
-		margin: 0;
 		padding: 0px;
 	}
 
@@ -138,7 +137,7 @@ body {
 	}
 
 	.project1container > .next, .prev {
-		top: 410px;
+		top: 455px;
 		font-size: 60px;
 	}
 
@@ -151,8 +150,70 @@ body {
 	}
 
 	.project1 > .backtodesign {
-		bottom: 200px;
+		bottom: 35px;
+		right: 90px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	.project1container > .next, .prev {
+		top: 435px;
+		font-size: 60px;
+	}
+
+	.project1container > .next {
+		right: 45px;
+	}
+
+	.project1container > .prev {
+		left: 15px;
+	}
+
+	.project1container {
+		margin-left: -30px;
+	}
+
+	.project1 > .backtodesign {
+		bottom: 25px;
 		right: 80px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.project1 > h1 {
+		margin-left: 30px;
+	}
+
+	.project1 > .project-content {
+		margin-left: 30px;
+	}
+
+	.project1container > .next, .prev {
+		top: 405px;
+		font-size: 60px;
+	}
+
+	.project1container > .next {
+		right: 10px;
+	}
+
+	.project1container > .prev {
+		left: 10px;
+	}
+
+	.project1container {
+		margin: 0;
+	}
+
+	.project1container > .project1content {
+		width: 100%;
+	}
+
+	.project1 > .backtodesign {
+		bottom: 140px;
+		right: 50px;
 		text-align: center;
 	}
 }
